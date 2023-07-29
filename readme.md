@@ -1,4 +1,7 @@
-# DeBridger
+# DeBridger v0.3.5
+
+## Source code
+https://github.com/m0loch/DeBridger
 
 ## How to install
 https://ui.vision/howto/install-chrome-extension-from-file
