@@ -1,7 +1,7 @@
 {
   "name": "DeBridger",
   "description": "Improve readability of InterFans.org by collecting some garbage",
-  "version": "0.1.0",
+  "version": "0.3.1",
   "manifest_version": 3,
   "icons": {
     "16": "images/icon-16.png",
@@ -20,5 +20,9 @@
       "run_at": "document_end",
       "all_frames": true
     }
+  ],
+  "options_page": "options/options.html",
+  "permissions": [
+    "storage"
   ]
 }
