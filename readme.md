@@ -3,6 +3,9 @@
 ## Source code
 https://github.com/m0loch/DeBridger
 
+## Online package
+https://mega.nz/file/yrBQDKzA#zBTBVybmfmdUduDRVZgvNID929zUGPM1wpcKzVrddLQ
+
 ## How to install
 https://ui.vision/howto/install-chrome-extension-from-file
 
