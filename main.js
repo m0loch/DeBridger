@@ -5,8 +5,6 @@ chrome.storage.sync.get(
         subtext: '[redacted]'
 },
     (opts) => {
-        console.log(opts);
-
         Array.from(document.getElementsByClassName("message--post")).forEach(
             post => {
                 if (opts.trollsList.includes(post.getAttribute('data-author'))) {
