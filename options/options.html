@@ -3,31 +3,40 @@
 
 <head>
     <title>DeBridger filter options</title>
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="options.css">
 </head>
 
 <body>
-    <p>Source code <a href="https://github.com/m0loch/DeBridger">here</a></p>
-    <br /><br />
-    <label>
-        Garbage poster to be handled
-        <input type="text" id="target" />
-    </label>
-    <br /><br />
-    <label>
-        <input type="checkbox" id="deletion" />
-        Just remove the posts
-    </label>
-    <br /><br />
-    <label id="subtextSection">
-        Substitute content for redacted post
-        <input type="text" id="subtext" />
-    </label>
-    <br /><br />
-    <button id="save">Save</button>
-    <br /><br />
-    <div id="status" />
+    <div class="content">
 
-    <img style="display: block;margin: auto;background-color: hsl(0, 0%, 90%);" src="https://i.giphy.com/media/XBd1ofvjcd8LMErd22/giphy.webp">
+        <div class="innerContent">
+            Users that need to be disciplined:
+            <ul id="trolls"></ul>
+
+            <label>
+                Add troll
+                <input type="text" id="newTroll" />
+            </label>
+            <input id="addTrollBtn" type="button" value="+" />
+        </div>
+
+        <label>
+            <input type="checkbox" id="deletion" />
+            Just remove the posts
+        </label>
+        <label id="subtextSection">
+            Substitute content for redacted post
+            <input type="text" id="subtext" />
+        </label>
+        <input id="save" type="button" value="Save" />
+
+        <div id="status" class="status"></div>
+
+        <img src="https://i.giphy.com/media/XBd1ofvjcd8LMErd22/giphy.webp">
+
+        <p>Source code <a href="https://github.com/m0loch/DeBridger">here</a></p>
+
+    </div>
 
     <script src="options.js"></script>
 </body>

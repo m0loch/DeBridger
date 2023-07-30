@@ -1,15 +1,15 @@
 chrome.storage.sync.get(
     {
-        target: 'Pieroc Nation',
+        trollsList: ['Pieroc Nation', 'Morten_Knudsen'],
         isDeletionMode: false,
-        subtext: 'i suck'
-    },
+        subtext: '[redacted]'
+},
     (opts) => {
         console.log(opts);
 
         Array.from(document.getElementsByClassName("message--post")).forEach(
             post => {
-                if (post.getAttribute('data-author') === opts.target) {
+                if (opts.trollsList.includes(post.getAttribute('data-author'))) {
                     Array.from(post.getElementsByClassName('bbWrapper')).forEach(content => {
                         if (opts.isDeletionMode) {
                             // up 8 levels - the code we need, not the one we deserve

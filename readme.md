@@ -4,7 +4,7 @@
 https://github.com/m0loch/DeBridger
 
 ## Online package
-https://mega.nz/file/yrBQDKzA#zBTBVybmfmdUduDRVZgvNID929zUGPM1wpcKzVrddLQ
+https://mega.nz/file/Cig1AQIT#ojryqLaAkmUTq4Vtcql5cq37L0CyZLhrX9u7t7Y5k-E
 
 ## How to install
 https://ui.vision/howto/install-chrome-extension-from-file
@@ -22,5 +22,9 @@ Sometimes the ignore list is just not enough to handle some trolls
 
 ## Plans for the future
 - clean posts quoting the troll as well
-- extend the functionalities to a list of users (why just one at a time?)
 - multiple possible messages to randomly choose from when replacing the post
+
+## Change Log
+- 0.4.5
+  * added support for a list of trolls, rather than a single user
+  * added some basic CSS styling to the options page
