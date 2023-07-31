@@ -1,10 +1,10 @@
-# DeBridger v0.4.5
+# DeBridger v0.4.6
 
 ## Source code
 https://github.com/m0loch/DeBridger
 
 ## Online package
-https://mega.nz/file/Cig1AQIT#ojryqLaAkmUTq4Vtcql5cq37L0CyZLhrX9u7t7Y5k-E
+https://mega.nz/file/mqZVEJoT#sCuBAVkEuhed7W1K_zntQVDc4adjzGXddZ0sj0fVSR0
 
 ## How to install
 https://ui.vision/howto/install-chrome-extension-from-file
