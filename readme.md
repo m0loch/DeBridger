@@ -25,6 +25,9 @@ Sometimes the ignore list is just not enough to handle some trolls
 - multiple possible messages to randomly choose from when replacing the post
 
 ## Change Log
+- 0.4.6
+  * now quotes get handles as well
+
 - 0.4.5
   * added support for a list of trolls, rather than a single user
   * added some basic CSS styling to the options page
