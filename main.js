@@ -5,6 +5,15 @@ chrome.storage.sync.get(
         subtext: '[redacted]'
 },
     (opts) => {
+        // Remove VIPs from the list of trolls
+        const safe = Array.from(
+                document.getElementsByClassName("username")
+            )
+            .filter(user => user.querySelector("[itemprop='name']")?.classList?.length > 0)
+            .map(user => user.childNodes[0].innerText);
+
+        opts.trollsList = opts.trollsList.filter(troll => !safe.includes(troll));
+
         // Handle posts
         Array.from(document.getElementsByClassName("message--post")).forEach(
             post => {
@@ -30,7 +39,7 @@ chrome.storage.sync.get(
             }
         );
 
-        // Hangle quotes
+        // Handle quotes
         Array.from(document.getElementsByClassName("bbCodeBlock--quote")).forEach(
             quote => {
                 if (opts.trollsList.includes(quote.getAttribute('data-quote'))) {

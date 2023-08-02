@@ -1,10 +1,10 @@
-# DeBridger v0.4.5
+# DeBridger v0.4.8
 
 ## Source code
 https://github.com/m0loch/DeBridger
 
 ## Online package
-https://mega.nz/file/Cig1AQIT#ojryqLaAkmUTq4Vtcql5cq37L0CyZLhrX9u7t7Y5k-E
+https://mega.nz/file/imZiSLZR#sfwghmfjDTR9KnpDq5qLAboaIrhQY2GOK8W6m4dLAa8
 
 ## How to install
 https://ui.vision/howto/install-chrome-extension-from-file
@@ -21,10 +21,15 @@ Sometimes the ignore list is just not enough to handle some trolls
 - option of just removing the post altogether
 
 ## Plans for the future
-- clean posts quoting the troll as well
 - multiple possible messages to randomly choose from when replacing the post
 
+## Known issues
+- if the user adds a VIP to the trolls list (i.e.: a moderator) then loads a page containing a post quoting said user, but no full post from them, the quoted message will be purged.
+
 ## Change Log
+- 0.4.8
+  * avoid censoring posts from VIPs
+
 - 0.4.6
   * now quotes get handles as well
 
