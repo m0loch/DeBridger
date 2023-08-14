@@ -2,7 +2,7 @@ chrome.storage.sync.get(
     {
         trollsList: ['Pieroc Nation', 'Morten_Knudsen'],
         isDeletionMode: false,
-        subtext: '[redacted]'
+        subcontent: '[redacted]'
 },
     (opts) => {
         // Remove VIPs from the list of trolls
@@ -32,7 +32,7 @@ chrome.storage.sync.get(
                                 .parentElement
                                 .remove();
                         } else {
-                            content.innerText = opts.subtext
+                            content.innerHTML = opts.subcontent
                         }
                     })
                 }
@@ -46,7 +46,7 @@ chrome.storage.sync.get(
                     if (opts.isDeletionMode) {
                         quote.remove();
                     } else {
-                        quote.querySelector('.bbCodeBlock-expandContent').innerText = opts.subtext;
+                        quote.querySelector('.bbCodeBlock-expandContent').innerHTML = opts.subcontent;
                     }
                 }
             }

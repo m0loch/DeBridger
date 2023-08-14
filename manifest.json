@@ -1,7 +1,7 @@
 {
   "name": "DeBridger",
   "description": "Improve readability of InterFans.org by collecting some garbage",
-  "version": "0.4.8",
+  "version": "0.4.9",
   "manifest_version": 3,
   "icons": {
     "16": "images/icon-16.png",
